@@ -14,7 +14,7 @@ AuthNexus builds reliable OAuth2/OIDC-based authentication and authorization com
 ## Focus Areas
 
 - IAM for applications, services, machines, and AI agents
-- Privacy by default, with consent by design
+- Components with privacy by default and consent by design
 - Secure service-to-service and agent-to-service access
 - Reliable authorization boundaries for production systems
 
