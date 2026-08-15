@@ -1,20 +1,26 @@
 # AuthNexus
 
-AuthNexus builds reliable authentication and authorization components for modern applications, services, and agentic systems. The project focuses on practical, production-ready building blocks that are simple to adopt and designed for security and privacy sensitive environments.
+Open-source, enterprise-grade IAM, security, and privacy primitives for AI, humans, and machines.
+
+AuthNexus builds reliable OAuth2/OIDC-based authentication and authorization components for modern applications, services, and AI agents. We focus on practical, production-ready building blocks that are simple to adopt and designed for security- and privacy-sensitive environments.
 
 ## What We Build
 
-- OAuth2/OIDC authentication and authorisation primitives
+- OAuth2/OIDC authentication and authorization primitives
+- JWT and JWKS validation components
+- Framework-native middleware for modern application stacks
+- Example applications, integration tests, and release automation
 
 ## Focus Areas
 
-- IAM for applications, services, and agents
-- Secure service-to-service authentication and authorisation
-- Privacy-aware security infrastructure
+- IAM for applications, services, machines, and AI agents
+- Privacy by default, with consent by design
+- Secure service-to-service and agent-to-service access
+- Reliable authorization boundaries for production systems
 
 ## Security & Privacy Tenets
 
-- Prefer secure by defaults and make risky behaviour explicit.
+- Prefer secure defaults and make risky behavior explicit.
 - Minimize data collection, retention, and exposure.
 - Treat humans, services, machines, and AI agents as first-class identities.
 - Design for least privilege across every integration point.
@@ -25,11 +31,7 @@ AuthNexus builds reliable authentication and authorization components for modern
 ## How We Build It
 
 - Security-first defaults with explicit configuration
-- Framework-native integrations that avoid surprising behavior
-- Automated tests across supported adapters and examples
-- Integration, security, and stress testing before release
+- Framework-native integrations that avoid surprises
+- Extensive integration, security, and stress testing
 - Curated dependencies with automated security checks
-- Reproducible builds and automated release workflows
 - Clear documentation for implementation and operations
-
-
